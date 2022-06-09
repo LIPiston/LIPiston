@@ -17,7 +17,7 @@ jobs:
       run: |
         git clone https://github.com/LIPiston/LIPiston.git .
         cd docs/docs/images
-        rm China.png
+        rm China-weather.png
         wget wttr.in/China.png
         mv China.png China-weather.png
     - name: Commit files
