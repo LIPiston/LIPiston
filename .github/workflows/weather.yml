@@ -18,7 +18,8 @@ jobs:
         mkdir cache
         cd cache
         git clone -b output https://github.com/LIPiston/LIPiston.git
-        mv LIPiston/* .. && mv LIPiston/.* ..
+        mv LIPiston/* ..
+        mv LIPiston/.* ..
         rm -rf LIPiston
         cd ..
         wget wttr.in/China.png
