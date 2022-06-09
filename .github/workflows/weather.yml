@@ -15,20 +15,21 @@ jobs:
     steps:
     - name: Create local changes
       run: |
+        mkdir cache
+        cd cache
         git clone -b output https://github.com/LIPiston/LIPiston.git
-        cd LIPiston/
+        mv LIPiston/* .. && mv LIPiston/.* ..
+        rm -rf LIPiston
+        cd ..
         wget wttr.in/China.png
     - name: Commit files
       run: |
-        cd LIPiston/
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add --all
         git commit -m "Add changes" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
-      run: |
-        cd LIPiston/
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: output
