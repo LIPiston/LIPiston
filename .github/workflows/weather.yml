@@ -16,6 +16,7 @@ jobs:
     - name: Create local changes
       run: |
         git clone -b output https://github.com/LIPiston/LIPiston.git .
+        cd docs/docs/images
         wget wttr.in/China.png
     - name: Commit files
       run: |
@@ -27,4 +28,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: output
+        branch: main
