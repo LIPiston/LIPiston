@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Create local changes
+    - name: get China-weather.png
       run: |
         git clone https://github.com/LIPiston/LIPiston.git .
         cd docs/docs/images
