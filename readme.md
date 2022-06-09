@@ -8,4 +8,4 @@ Hi 👋, I'm LIPiston
 ![snake](https://github.com/LIPiston/LIPiston/blob/output/github-contribution-grid-snake-dark.svg)
 
 ----
-![cloud](docs/docs/images/china.png)
+![weather](docs/docs/images/China.png)
