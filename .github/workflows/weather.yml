@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: Create local changes
       run: |
-        git clone -b output https://github.com/LIPiston/LIPiston.git .
+        git clone https://github.com/LIPiston/LIPiston.git .
         cd docs/docs/images
         wget wttr.in/China.png
     - name: Commit files
