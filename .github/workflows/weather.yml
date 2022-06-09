@@ -15,13 +15,7 @@ jobs:
     steps:
     - name: Create local changes
       run: |
-        mkdir cache
-        cd cache
-        git clone -b output https://github.com/LIPiston/LIPiston.git
-        sleep 30
-        mv LIPiston/* .. && mv LIPiston/.* ..
-        rm -rf LIPiston
-        cd ..
+        git clone -b output https://github.com/LIPiston/LIPiston.git .
         wget wttr.in/China.png
     - name: Commit files
       run: |
