@@ -4,7 +4,7 @@ Hi 👋, I'm LIPiston
 
 ----
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LIPiston)]
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LIPiston)
 ![snake](https://github.com/LIPiston/LIPiston/blob/output/github-contribution-grid-snake-dark.svg)
 
 ----
