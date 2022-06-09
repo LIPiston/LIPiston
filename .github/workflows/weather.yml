@@ -18,7 +18,7 @@ jobs:
         mkdir cache
         cd cache
         git clone -b output https://github.com/LIPiston/LIPiston.git
-        sleep 5
+        sleep 30
         mv LIPiston/* .. && mv LIPiston/.* ..
         rm -rf LIPiston
         cd ..
