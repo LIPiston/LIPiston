@@ -30,7 +30,9 @@ __必須打開 PRC__ _密鑰可選_
 [for chrome](https://chrome.google.com/webstore/detail/aria2-for-chrome/mpkodccbngfoacfalldjimigbofkhgjn)  
 [github](https://github.com/alexhua/Aria2-for-chrome)  
 [crx](http://www.crx4.com/9813.html)  
-安裝后如圖設置[upl-image-preview url=http://162.14.77.208/assets/files/2022-03-21/1647893816-244595-1.png]  
+安裝后如圖設置
+
+![设置](/mnt/hdd1/GIT/LIPiston/docs/docs/images/aria2/1647893816-244595-1.png)  
 __拦截文件大小为 0 时全部使用 aria2 进行下载__
 
 回到 aria2 文件夾  
