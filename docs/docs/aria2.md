@@ -10,20 +10,23 @@ aria2 是一個__多線程不限速__的下載器
 官方開源 [前往](https://github.com/aria2/aria2)
 
 ## 安裝
+
 下載 aria2 的最新壓縮包並解壓
 下載一個 aria2.conf
 
 ```sh
 wget https://github.com/P3TERX/aria2.conf/blob/master/aria2.conf
 ```
+
 在文件夾內新建一個 `aria2.session`
 __完事__
 
 ## 使用方法
 
 ### for Windows
+
 根據注釋更改 aria2.conf  
-__必須打開 PRC__ _密鑰可選_ 
+__必須打開 PRC__ _密鑰可選_
 
 我們需要一個簡單的瀏覽器插件來讓我們懶  
 [for edge](https://microsoftedge.microsoft.com/addons/detail/aria2-for-edge/jjfgljkjddpcpfapejfkelkbjbehagbh)  
@@ -41,10 +44,12 @@ __拦截文件大小为 0 时全部使用 aria2 进行下载__
 ```sh
 CreateObject("WScript.Shell").Run "aria2c.exe --conf-path=aria2.conf",0
 ```
+
 保存后運行即可使用  
 win + R 輸入 `shell:startup` 並放入快捷方式即可開機自啟
 
 ### for linux & OSX
+
 同樣安裝瀏覽器插件  
 start.vbs 改為 start.sh  
 内容更换为
@@ -52,9 +57,11 @@ start.vbs 改為 start.sh
 ```sh
 screen aria2c --conf-path=aria2.conf
 ```
+
 保存即可使用
 
-## 下载连接设置 
+## 下载连接设置
+
 ```sh
 # 设置代理服务器
 # 默认：无
@@ -69,8 +76,8 @@ all-proxy=http://127.0.0.1:7890/
 # all-proxy-user=""
 ```
 
-
 ## 油猴获取度盘直链下载
+
 [油小猴](https://www.baiduyun.wiki/zh-cn/)  
 __速度由账号决定，可多选下载文件，不需要多次验证__
 
