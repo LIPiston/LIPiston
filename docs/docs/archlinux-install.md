@@ -6,5 +6,4 @@ date: 2022-06-09
 tags: 笔记
 ---
 
-
-![XD](images/archlinux-install/archlinux-install-16547381714762.jpeg)
+![archlinux-install-16547381714762](assets/imgs/archlinux-install/archlinux-install-16547381714762.jpeg)
