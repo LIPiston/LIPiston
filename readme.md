@@ -3,8 +3,3 @@
 [![Gmail Badge](https://img.shields.io/badge/-LIPiston-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:wps191003789@gmail.com)](mailto:wps191003789@gmail.com)
 
 ![neofetch](neofetch.png)
-
--------
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=LIPiston)
-![snake](https://github.com/LIPiston/LIPiston/blob/output/github-contribution-grid-snake-dark.svg)
