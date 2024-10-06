@@ -28,7 +28,7 @@ social:
   linkedin: 
   steam: 
   others: 
-  rss: 
+  rss: /atom.xml 
 # friends
 friends:
   # friendA: //www.baidu.com
@@ -38,9 +38,9 @@ about:
   image: /intro/about-bg.jpg
 # Search for website
 search:
-  enable: false
+  enable: true
   # Seach URL, must be set. For example: 'fi3ework.github.io'
-  url: lipiston.ru.org
+  url: lipiston.eu.org
   # Search engine: 'bing' (default), 'google' or 'baidu'
   engine: bing
 # Display icons of friends, about and search

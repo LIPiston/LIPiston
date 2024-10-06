@@ -97,6 +97,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: archer
+plugins:
+    - hexo-generator-sitemap
+    - hexo-generator-feed
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -124,3 +127,15 @@ jsonContent:
     excerpt: false
     categories: true
     tags: true
+
+#站点地图
+sitemap:
+    path: sitemap.xml
+
+
+#订阅RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+
