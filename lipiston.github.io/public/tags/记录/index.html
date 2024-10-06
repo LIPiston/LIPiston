@@ -399,14 +399,13 @@
                 <main class="main index-page">
             
         <article class="index-post">
-            <a class="abstract-title" href="/2024/10/06/writeinmobile/">
-                <span class="abstract-title-text">在手机上写博客的办法</span>
+            <a class="abstract-title" href="/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/">
+                <span class="abstract-title-text">多次碰壁</span>
             </a>
             <div class="abstract-content">
-                
-准备工作一个 markdown 编辑器，我是比较推荐 markor 的，干净好用而且开源。  （同上图）一个 termux 
-部署首先你需要在 termux 安装好nodejs然后安装 hexo-cli npm i hexo-cli然后把整个 hexo 项目文件夹弄到手机上（我是直接丢 GitHub 然后clone下来。然后进入项目文件夹里面npm i（如果已经有 module 了的话，当我没说）就可以和电脑一样使用了。
-编写使用 markor 找到对应文件即可
+                CNAME因为我用的是 github pages 去部署的，GitHub pages 默认有个CNAME的框给我填但是多次 deploy 之后发现域名又用不了了才发现CNAME没了  
+后面发现可以在source文件夹下面新建CNAME去解决这个问题同时我发现LICENSE也可以这样弄
+就挺好
 
             </div>
             <!-- read more -->
@@ -417,58 +416,7 @@
                 </div>
                 <!-- tags -->
                     <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="记录">记录</a>
-</div>
-
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-            
-        <article class="index-post">
-            <a class="abstract-title" href="/2024/10/06/%E6%8A%98%E8%85%BEhexo%E6%BA%90%E6%96%87%E4%BB%B6/">
-                <span class="abstract-title-text">折腾 hexo 源文件</span>
-            </a>
-            <div class="abstract-content">
-                原因今天蹲厕所的时候想看一下这个 blog 手机上写有没有什么说法然后看半天发现hexo d上传的是静态文件我都没有源文件我写个屁  
-处理后面实在没办法就把lipiston.github.io塞进LIPiston这个库里面了然后发现git commit不让我提交主题，才发现自己没删主题的.git最后还是解决了这个问题以后在哪都能写文了  
-
-            </div>
-            <!-- read more -->
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2024/10/06">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2024/10/06</span>
-                </div>
-                <!-- tags -->
-                    <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="记录">记录</a>
-</div>
-
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
-            
-        <article class="index-post">
-            <a class="abstract-title" href="/2024/10/05/%E6%9C%80%E7%BB%88%E6%97%A0%E9%99%A9%E9%98%BB%E5%BC%80%E5%8D%9A%E5%AE%A2/">
-                <span class="abstract-title-text">最终无险阻开博客</span>
-            </a>
-            <div class="abstract-content">
-                最终无险阻开博客如题，完全是我自己动不起来才没开起来这个博客，现在弄出来了。有时间回在这上面写点东西什么的obsidian 写起来挺爽的
-现在发现这个主题好像不适合我拉屎（写日记
-所以我换主题了
-本来是 next
-
-            </div>
-            <!-- read more -->
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2024/10/06">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2024/10/05</span>
-                </div>
-                <!-- tags -->
-                    <div class="abstract-tags" >
-        <a class="post-tag" href="javascript:void(0);" data-tags="记录">记录</a>
-        <a class="post-tag" href="javascript:void(0);" data-tags="日常">日常</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="-记录">-记录</a>
 </div>
 
             </div>
@@ -544,10 +492,6 @@
 
         <div class="sidebar-panel-tags">
     <div class="sidebar-tags-name">
-            <span class="sidebar-tag-name" data-tags="-记录">
-                <span class="iconfont-archer">&#xe606;</span>
-                -记录
-            </span>
             <span class="sidebar-tag-name" data-tags="记录">
                 <span class="iconfont-archer">&#xe606;</span>
                 记录
@@ -555,6 +499,10 @@
             <span class="sidebar-tag-name" data-tags="日常">
                 <span class="iconfont-archer">&#xe606;</span>
                 日常
+            </span>
+            <span class="sidebar-tag-name" data-tags="-记录">
+                <span class="iconfont-archer">&#xe606;</span>
+                -记录
             </span>
     </div>
     <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
@@ -566,13 +514,13 @@
 
         <div class="sidebar-panel-categories">
     <div class="sidebar-categories-name">
-        <span class="sidebar-category-name" data-categories="好玩的">
-            <span class="iconfont-archer">&#xe60a;</span>
-            好玩的
-        </span>
         <span class="sidebar-category-name" data-categories="杂物">
             <span class="iconfont-archer">&#xe60a;</span>
             杂物
+        </span>
+        <span class="sidebar-category-name" data-categories="好玩的">
+            <span class="iconfont-archer">&#xe60a;</span>
+            好玩的
         </span>
     </div>
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>

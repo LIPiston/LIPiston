@@ -2,13 +2,12 @@
 title: 在手机上写博客的办法
 categories: 好玩的
 tags:
-  - null
   - 记录
 date: 2024-10-06 16:52:14
 ---
 
 
-![](https://github.com/LIPiston/picx-images-hosting/raw/master/Screenshot_20241006-161942_Markor.1sf0s87d7s.png)
+![](https://LIPiston.github.io/picx-images-hosting/Screenshot_20241006-161942_Markor.1oveukth44.png)
 
 
 ## 准备工作
