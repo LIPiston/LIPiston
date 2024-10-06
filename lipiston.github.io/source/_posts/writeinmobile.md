@@ -7,7 +7,7 @@ date: 2024-10-06 16:52:14
 ---
 
 
-![](https://LIPiston.github.io/picx-images-hosting/Screenshot_20241006-161942_Markor.1oveukth44.png)
+![](https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-161942_Markor.1oveukth44.png)
 
 
 ## 准备工作
