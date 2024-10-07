@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/</loc>
+    
+    <lastmod>2024-10-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lipiston.eu.org/2024/10/07/mcmeme/</loc>
     
     <lastmod>2024-10-06</lastmod>
@@ -55,19 +64,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/</loc>
-    
-    <lastmod>2024-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://lipiston.eu.org/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,28 +75,21 @@
   
   <url>
     <loc>https://lipiston.eu.org/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lipiston.eu.org/tags/%E6%9C%89%E8%B6%A3/</loc>
-    <lastmod>2024-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lipiston.eu.org/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lipiston.eu.org/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -105,14 +98,14 @@
   
   <url>
     <loc>https://lipiston.eu.org/categories/%E5%A5%BD%E7%8E%A9%E7%9A%84/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://lipiston.eu.org/categories/%E6%9D%82%E7%89%A9/</loc>
-    <lastmod>2024-10-06</lastmod>
+    <lastmod>2024-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
