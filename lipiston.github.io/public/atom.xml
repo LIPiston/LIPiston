@@ -6,7 +6,7 @@
   <link href="https://lipiston.eu.org/atom.xml" rel="self"/>
   
   <link href="https://lipiston.eu.org/"/>
-  <updated>2024-10-06T16:40:46.722Z</updated>
+  <updated>2024-10-07T14:31:08.839Z</updated>
   <id>https://lipiston.eu.org/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lipiston.eu.org/2024/10/07/mcmeme/"/>
     <id>https://lipiston.eu.org/2024/10/07/mcmeme/</id>
     <published>2024-10-06T16:34:03.000Z</published>
-    <updated>2024-10-06T16:40:46.722Z</updated>
+    <updated>2024-10-07T14:31:08.839Z</updated>
     
     <content type="html"><![CDATA[<h1 id="最有乐子的一集"><a href="#最有乐子的一集" class="headerlink" title="最有乐子的一集"></a>最有乐子的一集</h1><p><img src="https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-212731_GitHub.7i0d4aja01.png"></p><p>我直接就启动赛博文物计划<br>有意向的可以提交 pr 哦</p><p><a href="https://github.com/LIPiston/mcmeme">https://github.com/LIPiston/mcmeme</a></p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="https://lipiston.eu.org/2024/10/06/share/"/>
     <id>https://lipiston.eu.org/2024/10/06/share/</id>
     <published>2024-10-06T08:52:14.000Z</published>
-    <updated>2024-10-06T09:45:22.960Z</updated>
+    <updated>2024-10-07T14:31:08.839Z</updated>
     
     <content type="html"><![CDATA[<p>存东西的地方</p><h1 id="chunkbase"><a href="#chunkbase" class="headerlink" title="chunkbase"></a>chunkbase</h1><p><a href="https://chunkbase.lipiston.workers.dev/">https://chunkbase.lipiston.workers.dev/</a></p>]]></content>
     
@@ -70,7 +70,7 @@
     <link href="https://lipiston.eu.org/2024/10/06/writeinmobile/"/>
     <id>https://lipiston.eu.org/2024/10/06/writeinmobile/</id>
     <published>2024-10-06T08:52:14.000Z</published>
-    <updated>2024-10-06T09:42:28.156Z</updated>
+    <updated>2024-10-07T14:31:08.839Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-161942_Markor.1oveukth44.png"></p><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>一个 markdown 编辑器，我是比较推荐 markor 的，干净好用而且开源。  （同上图）<br>一个 termux </p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>首先你需要在 termux 安装好<code>nodejs</code><br>然后安装 hexo-cli <code>npm i hexo-cli</code><br>然后把整个 hexo 项目文件夹弄到手机上（我是直接丢 GitHub 然后clone下来。<br>然后进入项目文件夹里面<code>npm i</code>（如果已经有 module 了的话，当我没说）<br>就可以和电脑一样使用了。</p><h2 id="编写"><a href="#编写" class="headerlink" title="编写"></a>编写</h2><p>使用 markor 找到对应文件即可</p>]]></content>
     
@@ -95,7 +95,7 @@
     <link href="https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/"/>
     <id>https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/</id>
     <published>2024-10-06T06:47:50.000Z</published>
-    <updated>2024-10-07T09:24:16.095Z</updated>
+    <updated>2024-10-07T14:31:08.839Z</updated>
     
     <content type="html"><![CDATA[<h2 id="CNAME"><a href="#CNAME" class="headerlink" title="CNAME"></a>CNAME</h2><p>因为我用的是 github pages 去部署的，GitHub pages 默认有个<code>CNAME</code>的框给我填<br>但是多次 deploy 之后发现域名又用不了了<br>才发现<code>CNAME</code>没了  </p><p>后面发现可以在<code>source</code>文件夹下面新建<code>CNAME</code>去解决这个问题<br>同时我发现<code>LICENSE</code>也可以这样弄</p><p>就挺好</p>]]></content>
     
@@ -117,7 +117,7 @@
     <link href="https://lipiston.eu.org/2024/10/06/%E6%8A%98%E8%85%BEhexo%E6%BA%90%E6%96%87%E4%BB%B6/"/>
     <id>https://lipiston.eu.org/2024/10/06/%E6%8A%98%E8%85%BEhexo%E6%BA%90%E6%96%87%E4%BB%B6/</id>
     <published>2024-10-06T05:19:10.000Z</published>
-    <updated>2024-10-06T07:19:58.928Z</updated>
+    <updated>2024-10-07T14:31:08.840Z</updated>
     
     <content type="html"><![CDATA[<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>今天蹲厕所的时候想看一下这个 blog 手机上写有没有什么说法<br>然后看半天发现<code>hexo d</code>上传的是静态文件<br>我都没有源文件我写个屁  </p><h2 id="处理"><a href="#处理" class="headerlink" title="处理"></a>处理</h2><p>后面实在没办法<br>就把<code>lipiston.github.io</code>塞进<code>LIPiston</code>这个库里面了<br>然后发现<code>git commit</code>不让我提交主题，才发现自己没删主题的<code>.git</code><br>最后还是解决了这个问题<br>以后在哪都能写文了  </p>]]></content>
     
@@ -141,7 +141,7 @@
     <link href="https://lipiston.eu.org/2024/10/05/%E6%9C%80%E7%BB%88%E6%97%A0%E9%99%A9%E9%98%BB%E5%BC%80%E5%8D%9A%E5%AE%A2/"/>
     <id>https://lipiston.eu.org/2024/10/05/%E6%9C%80%E7%BB%88%E6%97%A0%E9%99%A9%E9%98%BB%E5%BC%80%E5%8D%9A%E5%AE%A2/</id>
     <published>2024-10-05T13:27:03.000Z</published>
-    <updated>2024-10-06T07:19:58.932Z</updated>
+    <updated>2024-10-07T14:31:08.840Z</updated>
     
     <content type="html"><![CDATA[<h1 id="最终无险阻开博客"><a href="#最终无险阻开博客" class="headerlink" title="最终无险阻开博客"></a>最终无险阻开博客</h1><p>如题，完全是我自己动不起来才没开起来这个博客，现在弄出来了。<br>有时间回在这上面写点东西什么的<br>obsidian 写起来挺爽的</p><p>现在发现这个主题好像不适合我拉屎（写日记</p><p><strong>所以我换主题了</strong></p><p><del>本来是 next</del></p>]]></content>
     
