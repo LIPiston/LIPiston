@@ -31,7 +31,7 @@ date: 2024-10-27 00:05:49
 
 在输入法设定中选择`雾凇拼音`即可使用
 
-<img src="attachment:8864e5aa38df6a4300b1709af48e9767" alt="截图" style="zoom:50%;" />
+<img src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/20241107/QQ20241107-181618.60u9bvvftc.webp" alt="截图" style="zoom:50%;" />
 
 ### 同步
 
