@@ -1,6 +1,6 @@
 ---
 title: wsl-arch
 tags:
-  - null
-categories:
+  - 记录
+categories: 好玩的
 ---
