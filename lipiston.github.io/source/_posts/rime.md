@@ -1,5 +1,4 @@
 ---
-
 title: 逃离个性化推荐的最后一步：rime
 categories: 好玩的
 tags:
@@ -7,7 +6,7 @@ tags:
 date: 2024-10-27 00:05:49
 ---
 
-# 起因  
+# 起因
 
 国内的个性化推荐都做得让人一言难尽，有一种同一盆盆栽放到你面前让你辨认的美感。  
 包括国内输入法的数据采集问题，也让我使用了很久的Gboard。
@@ -31,15 +30,21 @@ date: 2024-10-27 00:05:49
 
 在输入法设定中选择`雾凇拼音`即可使用
 
-<img src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/20241107/QQ20241107-181618.60u9bvvftc.webp" alt="截图" style="zoom:50%;" />
+<img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/20241107/QQ20241107-181618.60u9bvvftc.webp" alt="截图" style="zoom:50%;" width="458">
 
 ### 同步
+
+Windows端推荐使用坚果云将这个目录进行同步
+
+> C:\Users\Administrator\AppData\Roaming\Rime\sync
+
+其他设备使用WebDAV进行同步就好了
 
 ## Android
 
 Android端我是不推荐使用trime的，因为Fcitx5-Android的多次更新已经很完善了，包括现在这篇文章的整个Android篇章都是用的Fcitx5-Android搭配rime-plugin。
 
-<img src="https://jsd.cdn.zzko.cn/gh/LIPiston/picx-images-hosting@master/Screenshot_20241026-235509_Markor.5mnt47fxt0.png" alt="" style="zoom:50%;" />
+<img title="" src="https://jsd.cdn.zzko.cn/gh/LIPiston/picx-images-hosting@master/Screenshot_20241026-235509_Markor.5mnt47fxt0.png" alt="" style="zoom:50%;" width="441">
 
 ### 安装
 
@@ -57,6 +62,8 @@ Android端我是不推荐使用trime的，因为Fcitx5-Android的多次更新已
 可以开始使用rime了
 
 ### 词库同步
+
+推荐使用 [folder sync](https://foldersync.io/)
 
 ## Linux
 
