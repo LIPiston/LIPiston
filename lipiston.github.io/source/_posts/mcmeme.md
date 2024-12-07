@@ -12,5 +12,5 @@ categories: 好玩的
 我直接就启动赛博文物计划  
 有意向的可以提交 pr 哦
 
-https://github.com/LIPiston/mcmeme
+https://github.com/mc-meme/mc-meme
 
