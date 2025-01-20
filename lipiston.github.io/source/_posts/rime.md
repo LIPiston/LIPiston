@@ -63,7 +63,27 @@ Android端我是不推荐使用trime的，因为Fcitx5-Android的多次更新已
 
 ### 词库同步
 
-推荐使用 [folder sync](https://foldersync.io/)
+推荐使用 [folder sync](https://foldersync.io/) 或者 [autosync](https://play.google.com/store/apps/details?id=com.ttxapps.autosync)  
+在rime用户目录中找到`installation.yaml`并进行修改  
+```
+distribution_code_name: "fcitx-rime"
+distribution_name: Rime
+distribution_version: 5.1.9
+install_time: "Sat Dec 28 19:04:25 2024"
+installation_id: oneplus7
+rime_version: 1.12.0
+update_time: "Sun Jan 12 14:07:26 2025"
+
+# 在末位处添加同步词库的路径
+sync_dir: "/storage/emulated/0/Documents/rimesync"
+```
+然后进入到autosync中添加一个云储存账号方便同步词库，然后创建文件夹对，将远程文件夹与本地文件夹进行同步，然后就能使用了。  
+<img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/ae25378a-019b-4924-aa93-c23f1fdd0df4.1zicvbujso.webp" alt="" style="zoom:50%;" width="441">
+<img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/image.45s2pjolj.webp" alt="" style="zoom:50%;" width="441">
+
+注意：fcitx5-Android自带了定时保存用户数据的设置，则rime会自动同步数据而Windows的自动同步只需要将开始菜单中的用户资料同步做到计划任务即可
+---
+
 
 ## Linux
 
