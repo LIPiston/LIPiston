@@ -3,7 +3,7 @@ layout: hexo deploy 多次碰壁
 title: 多次碰壁
 date: 2024-10-06 14:47:50
 tags:
-    - 记录
+    - 博客
 
 ---
 ## CNAME

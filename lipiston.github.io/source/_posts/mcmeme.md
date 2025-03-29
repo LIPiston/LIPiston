@@ -1,9 +1,9 @@
 ---
 title: 最有乐子的一集
 tags:
-  - 有趣
+  - mc
 date: 2024-10-07 00:34:03
-categories: 好玩的
+categories: 记录
 ---
 
 # 最有乐子的一集

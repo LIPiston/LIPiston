@@ -1,8 +1,8 @@
 ---
 title: 逃离个性化推荐的最后一步：rime
-categories: 好玩的
+categories: 记录
 tags:
-  - 记录
+  - rime
 date: 2024-10-27 00:05:49
 ---
 
