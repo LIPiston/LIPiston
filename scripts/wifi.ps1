@@ -1,5 +1,5 @@
-# Author: LIPiston
-# Description: This script enables the mobile hotspot on Windows 10/11 using WinRT APIs.
+# 作者: LIPiston
+# 描述: 此脚本使用 WinRT API 在 Windows 10/11 上启用移动热点。
 
 Add-Type -AssemblyName System.Runtime.WindowsRuntime
 $asTaskGeneric = ([System.WindowsRuntimeSystemExtensions].GetMethods() | ? { $_.Name -eq 'AsTask' -and $_.GetParameters().Count -eq 1 -and $_.GetParameters()[0].ParameterType.Name -eq 'IAsyncOperation`1' })[0]
