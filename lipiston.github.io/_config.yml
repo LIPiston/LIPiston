@@ -105,8 +105,8 @@ plugins:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/LIPiston/lipiston.github.io.git
-  branch: master
+  repo: https://github.com/LIPiston/LIPiston
+  branch: blog
   
 # 主题要用
 jsonContent:
