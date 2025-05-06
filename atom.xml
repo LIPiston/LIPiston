@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LIPiston`s Blog</title>
+  
+  <subtitle>没想好</subtitle>
+  <link href="https://lipiston.eu.org/atom.xml" rel="self"/>
+  
+  <link href="https://lipiston.eu.org/"/>
+  <updated>2025-05-06T10:00:19.338Z</updated>
+  <id>https://lipiston.eu.org/</id>
+  
+  <author>
+    <name>LIPiston</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>碎碎念1</title>
+    <link href="https://lipiston.eu.org/2025/04/26/%E7%A2%8E%E7%A2%8E%E5%BF%B51/"/>
+    <id>https://lipiston.eu.org/2025/04/26/%E7%A2%8E%E7%A2%8E%E5%BF%B51/</id>
+    <published>2025-04-26T06:02:12.000Z</published>
+    <updated>2025-05-06T10:00:19.338Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在开学有好一段时间了，我学不下去，很头疼但是没什么办法，有的时候又只能摆摆手就过了。</p><h2 id="神经病学校"><a href="#神经病学校" class="headerlink" title="神经病学校"></a>神经病学校</h2><h3 id="请假方面"><a href="#请假方面" class="headerlink" title="请假方面"></a>请假方面</h3><p>怎么会有学校在请假方面给学生施压的，之前第一次放双休的时候晚上不给请假就很奇怪了。</p><h2 id="建设方面"><a href="#建设方面" class="headerlink" title="建设方面"></a>建设方面</h2><p>为什么学校天天在搞这个建设那个建设，倒是一点厕所的事情不管，我们宿舍甚至有一个厕所门没了有一个月了，好奇怪（（（</p><h2 id="好事"><a href="#好事" class="headerlink" title="好事"></a>好事</h2><p>有人发现了 <a href="https://lipiston.eu.org/2024/10/07/mcmeme/">mc-meme</a> 这个库，挺开心的，当时也是一时兴起，算是一件好事吧。</p><p>我弄的输入法方案挺稳定的，暂时就这样了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;现在开学有好一段时间了，我学不下去，很头疼但是没什么办法，有的时候又只能摆摆手就过了。&lt;/p&gt;
+&lt;h2 id=&quot;神经病学校&quot;&gt;&lt;a href=&quot;#神经病学校&quot; class=&quot;headerlink&quot; title=&quot;神经病学校&quot;&gt;&lt;/a&gt;神经病学校&lt;/h2&gt;&lt;h3 id=&quot;请假</summary>
+      
+    
+    
+    
+    <category term="碎碎念" scheme="https://lipiston.eu.org/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+    
+    <category term="碎碎念" scheme="https://lipiston.eu.org/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rime自修改发布</title>
+    <link href="https://lipiston.eu.org/2025/03/29/rime%E8%87%AA%E4%BF%AE%E6%94%B9%E5%8F%91%E5%B8%83/"/>
+    <id>https://lipiston.eu.org/2025/03/29/rime%E8%87%AA%E4%BF%AE%E6%94%B9%E5%8F%91%E5%B8%83/</id>
+    <published>2025-03-29T12:12:26.000Z</published>
+    <updated>2025-05-06T10:00:19.337Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="rime-ice-by-lipiston"><a href="#rime-ice-by-lipiston" class="headerlink" title="rime-ice by lipiston"></a>rime-ice by lipiston</h1><p><img src="https://raw.githubusercontent.com/LIPiston/rime-ice/refs/heads/main/others/demo-lipiston.png" alt="alt text">  </p><h2 id="这是啥呢"><a href="#这是啥呢" class="headerlink" title="这是啥呢"></a>这是啥呢</h2><p>因为<code>rime-frost</code>一直都有一些问题，然后<code>rime-ice</code>是注重轻量的，所以我就自己改了一个<code>rime-ice</code>。<br>地址在 <a href="https://github.com/LIPiston/rime-ice">LIPiston&#x2F;rime-ice</a>   这个仓库<br>添加了一些大词库，加了点 Windows 端皮肤。  </p><p><a href="https://github.com/LIPiston/rime-ice">具体可以看这里</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;rime-ice-by-lipiston&quot;&gt;&lt;a href=&quot;#rime-ice-by-lipiston&quot; class=&quot;headerlink&quot; title=&quot;rime-ice by lipiston&quot;&gt;&lt;/a&gt;rime-ice by lipiston&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://lipiston.eu.org/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="rime" scheme="https://lipiston.eu.org/tags/rime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>逃离个性化推荐的最后一步：rime</title>
+    <link href="https://lipiston.eu.org/2024/10/27/rime/"/>
+    <id>https://lipiston.eu.org/2024/10/27/rime/</id>
+    <published>2024-10-26T16:05:49.000Z</published>
+    <updated>2025-05-06T10:00:19.337Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>国内的个性化推荐都做得让人一言难尽，有一种同一盆盆栽放到你面前让你辨认的美感。<br>包括国内输入法的数据采集问题，也让我使用了很久的Gboard。<br>但最后Windows端的微软拼音成功劝退我了，所以找到了被我尘封多年的rime。</p><h2 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h2><p>2024-11-07，有时间了，现在写写。  </p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>前往<a href="https://rime.im/">rime.im</a>下载 Windows 平台安装包  </p><p>打开照常安装。</p><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><p>前往<a href="https://github.com/iDvel/rime-ice">rime-ice</a>，下载整个zip  </p><p>解压到用户文件夹  </p><p>在输入法设定中选择<code>雾凇拼音</code>即可使用</p><img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/20241107/QQ20241107-181618.60u9bvvftc.webp" alt="截图" style="zoom:50%;" width="458"><h3 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h3><p>Windows端推荐使用坚果云将这个目录进行同步</p><blockquote><p>C:\Users\Administrator\AppData\Roaming\Rime\sync</p></blockquote><p>其他设备使用WebDAV进行同步就好了</p><h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><p>Android端我是不推荐使用trime的，因为Fcitx5-Android的多次更新已经很完善了，包括现在这篇文章的整个Android篇章都是用的Fcitx5-Android搭配rime-plugin。</p><img title="" src="https://jsd.cdn.zzko.cn/gh/LIPiston/picx-images-hosting@master/Screenshot_20241026-235509_Markor.5mnt47fxt0.png" alt="" style="zoom:50%;" width="441"><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><p>回归正题，安装部分很简单，在<a href="https://fcitx5-android.github.io/installation/">Fcitx5-Android的官方文档</a>就可以找到安装Fcitx5-Android的方式。<br>在<a href="https://github.com/fcitx5-android/fcitx5-android">GitHub就可以安装rime-plugin</a></p><h3 id="配置-1"><a href="#配置-1" class="headerlink" title="配置"></a>配置</h3><p>两者安装好后就到配置输入法<br>一开始的向导叫你干啥就干啥，然后到<a href="https://github.com/iDvel/rime-ice">rime-ice</a>下载整个zip，解压到rime用户目录</p><blockquote><p>&#x2F;storage&#x2F;emulated&#x2F;0&#x2F;Android&#x2F;data&#x2F;org.fcitx.fcitx5.android&#x2F;files&#x2F;data&#x2F;rime&#x2F;</p></blockquote><p>至此，你已经完成Android端的安装与配置。<br>可以开始使用rime了</p><h3 id="词库同步"><a href="#词库同步" class="headerlink" title="词库同步"></a>词库同步</h3><p>推荐使用 <a href="https://foldersync.io/">folder sync</a> 或者 <a href="https://play.google.com/store/apps/details?id=com.ttxapps.autosync">autosync</a>  </p><p>然后进入到autosync中添加一个云储存账号方便同步词库，然后创建文件夹对，将远程文件夹与本地文件夹进行同步，然后就能使用了。<br><img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/ae25378a-019b-4924-aa93-c23f1fdd0df4.1zicvbujso.webp" alt="" style="zoom:50%;" width="441"><br><img title="" src="https://ghp.ci/https://github.com/LIPiston/picx-images-hosting/raw/master/image.45s2pjolj.webp" alt="" style="zoom:50%;" width="441"></p><h2 id="注意：fcitx5-Android自带了定时保存用户数据的设置，则rime会自动同步数据而Windows的自动同步只需要将开始菜单中的用户资料同步做到计划任务即可"><a href="#注意：fcitx5-Android自带了定时保存用户数据的设置，则rime会自动同步数据而Windows的自动同步只需要将开始菜单中的用户资料同步做到计划任务即可" class="headerlink" title="注意：fcitx5-Android自带了定时保存用户数据的设置，则rime会自动同步数据而Windows的自动同步只需要将开始菜单中的用户资料同步做到计划任务即可"></a>注意：fcitx5-Android自带了定时保存用户数据的设置，则rime会自动同步数据而Windows的自动同步只需要将开始菜单中的用户资料同步做到计划任务即可</h2><h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><p>Linux机子没啦后面再写</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h1&gt;&lt;p&gt;国内的个性化推荐都做得让人一言难尽，有一种同一盆盆栽放到你面前让你辨认的美感。&lt;br&gt;包括国内输入法的数据采集问题，也让我使用了很久的Gbo</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://lipiston.eu.org/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="rime" scheme="https://lipiston.eu.org/tags/rime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最有乐子的一集</title>
+    <link href="https://lipiston.eu.org/2024/10/07/mcmeme/"/>
+    <id>https://lipiston.eu.org/2024/10/07/mcmeme/</id>
+    <published>2024-10-06T16:34:03.000Z</published>
+    <updated>2025-05-06T10:00:19.336Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="最有乐子的一集"><a href="#最有乐子的一集" class="headerlink" title="最有乐子的一集"></a>最有乐子的一集</h1><p><img src="https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-212731_GitHub.7i0d4aja01.png"></p><p>我直接就启动赛博文物计划<br>有意向的可以提交 pr 哦</p><p><a href="https://github.com/mc-meme/mc-meme">https://github.com/mc-meme/mc-meme</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;最有乐子的一集&quot;&gt;&lt;a href=&quot;#最有乐子的一集&quot; class=&quot;headerlink&quot; title=&quot;最有乐子的一集&quot;&gt;&lt;/a&gt;最有乐子的一集&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/LIPiston/pic</summary>
+      
+    
+    
+    
+    <category term="记录" scheme="https://lipiston.eu.org/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="mc" scheme="https://lipiston.eu.org/tags/mc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自己搭的一些奇奇怪怪东西</title>
+    <link href="https://lipiston.eu.org/2024/10/06/share/"/>
+    <id>https://lipiston.eu.org/2024/10/06/share/</id>
+    <published>2024-10-06T08:52:14.000Z</published>
+    <updated>2025-05-06T10:00:19.337Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="存东西的地方"><a href="#存东西的地方" class="headerlink" title="存东西的地方"></a>存东西的地方</h1><h2 id="chunkbase"><a href="#chunkbase" class="headerlink" title="chunkbase"></a>chunkbase</h2><p><a href="https://chunkbase.lipiston.workers.dev/">https://chunkbase.lipiston.workers.dev/</a></p><h2 id="一坨脚本"><a href="#一坨脚本" class="headerlink" title="一坨脚本"></a>一坨脚本</h2><p><a href="https://github.com/LIPiston/LIPiston/blob/main/scripts/README.md">前往</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;存东西的地方&quot;&gt;&lt;a href=&quot;#存东西的地方&quot; class=&quot;headerlink&quot; title=&quot;存东西的地方&quot;&gt;&lt;/a&gt;存东西的地方&lt;/h1&gt;&lt;h2 id=&quot;chunkbase&quot;&gt;&lt;a href=&quot;#chunkbase&quot; class=&quot;headerlink</summary>
+      
+    
+    
+    
+    <category term="好玩的" scheme="https://lipiston.eu.org/categories/%E5%A5%BD%E7%8E%A9%E7%9A%84/"/>
+    
+    
+    <category term="记录" scheme="https://lipiston.eu.org/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在手机上写博客的办法</title>
+    <link href="https://lipiston.eu.org/2024/10/06/writeinmobile/"/>
+    <id>https://lipiston.eu.org/2024/10/06/writeinmobile/</id>
+    <published>2024-10-06T08:52:14.000Z</published>
+    <updated>2025-05-06T10:00:19.338Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-161942_Markor.1oveukth44.png"></p><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>一个 markdown 编辑器，我是比较推荐 markor 的，干净好用而且开源。  （同上图）<br>一个 termux </p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>首先你需要在 termux 安装好<code>nodejs</code><br>然后安装 hexo-cli <code>npm i hexo-cli</code><br>然后把整个 hexo 项目文件夹弄到手机上（我是直接丢 GitHub 然后clone下来。<br>然后进入项目文件夹里面<code>npm i</code>（如果已经有 module 了的话，当我没说）<br>就可以和电脑一样使用了。</p><h2 id="编写"><a href="#编写" class="headerlink" title="编写"></a>编写</h2><p>使用 markor 找到对应文件即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/LIPiston/picx-images-hosting@master/Screenshot_20241006-161942_Markor.1oveukth44.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;</summary>
+      
+    
+    
+    
+    <category term="好玩的" scheme="https://lipiston.eu.org/categories/%E5%A5%BD%E7%8E%A9%E7%9A%84/"/>
+    
+    
+    <category term="手机" scheme="https://lipiston.eu.org/tags/%E6%89%8B%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多次碰壁</title>
+    <link href="https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/"/>
+    <id>https://lipiston.eu.org/2024/10/06/hexo-deploy-%E5%A4%9A%E6%AC%A1%E7%A2%B0%E5%A3%81/</id>
+    <published>2024-10-06T06:47:50.000Z</published>
+    <updated>2025-05-06T10:00:19.336Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CNAME"><a href="#CNAME" class="headerlink" title="CNAME"></a>CNAME</h2><p>因为我用的是 github pages 去部署的，GitHub pages 默认有个<code>CNAME</code>的框给我填<br>但是多次 deploy 之后发现域名又用不了了<br>才发现<code>CNAME</code>没了  </p><p>后面发现可以在<code>source</code>文件夹下面新建<code>CNAME</code>去解决这个问题<br>同时我发现<code>LICENSE</code>也可以这样弄</p><p>就挺好</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;CNAME&quot;&gt;&lt;a href=&quot;#CNAME&quot; class=&quot;headerlink&quot; title=&quot;CNAME&quot;&gt;&lt;/a&gt;CNAME&lt;/h2&gt;&lt;p&gt;因为我用的是 github pages 去部署的，GitHub pages 默认有个&lt;code&gt;CNAME&lt;/cod</summary>
+      
+    
+    
+    
+    
+    <category term="博客" scheme="https://lipiston.eu.org/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>折腾 hexo 源文件</title>
+    <link href="https://lipiston.eu.org/2024/10/06/%E6%8A%98%E8%85%BEhexo%E6%BA%90%E6%96%87%E4%BB%B6/"/>
+    <id>https://lipiston.eu.org/2024/10/06/%E6%8A%98%E8%85%BEhexo%E6%BA%90%E6%96%87%E4%BB%B6/</id>
+    <published>2024-10-06T05:19:10.000Z</published>
+    <updated>2025-05-06T10:00:19.338Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>今天蹲厕所的时候想看一下这个 blog 手机上写有没有什么说法<br>然后看半天发现<code>hexo d</code>上传的是静态文件<br>我都没有源文件我写个屁  </p><h2 id="处理"><a href="#处理" class="headerlink" title="处理"></a>处理</h2><p>后面实在没办法<br>就把<code>lipiston.github.io</code>塞进<code>LIPiston</code>这个库里面了<br>然后发现<code>git commit</code>不让我提交主题，才发现自己没删主题的<code>.git</code><br>最后还是解决了这个问题<br>以后在哪都能写文了  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;原因&quot;&gt;&lt;a href=&quot;#原因&quot; class=&quot;headerlink&quot; title=&quot;原因&quot;&gt;&lt;/a&gt;原因&lt;/h2&gt;&lt;p&gt;今天蹲厕所的时候想看一下这个 blog 手机上写有没有什么说法&lt;br&gt;然后看半天发现&lt;code&gt;hexo d&lt;/code&gt;上传的是静态文件&lt;</summary>
+      
+    
+    
+    
+    <category term="杂物" scheme="https://lipiston.eu.org/categories/%E6%9D%82%E7%89%A9/"/>
+    
+    
+    <category term="博客" scheme="https://lipiston.eu.org/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最终无险阻开博客</title>
+    <link href="https://lipiston.eu.org/2024/10/05/%E6%9C%80%E7%BB%88%E6%97%A0%E9%99%A9%E9%98%BB%E5%BC%80%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://lipiston.eu.org/2024/10/05/%E6%9C%80%E7%BB%88%E6%97%A0%E9%99%A9%E9%98%BB%E5%BC%80%E5%8D%9A%E5%AE%A2/</id>
+    <published>2024-10-05T13:27:03.000Z</published>
+    <updated>2025-05-06T10:00:19.338Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="最终无险阻开博客"><a href="#最终无险阻开博客" class="headerlink" title="最终无险阻开博客"></a>最终无险阻开博客</h1><p>如题，完全是我自己动不起来才没开起来这个博客，现在弄出来了。<br>有时间回在这上面写点东西什么的<br>obsidian 写起来挺爽的</p><p>现在发现这个主题好像不适合我拉屎（写日记</p><p><strong>所以我换主题了</strong></p><p><del>本来是 next</del></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;最终无险阻开博客&quot;&gt;&lt;a href=&quot;#最终无险阻开博客&quot; class=&quot;headerlink&quot; title=&quot;最终无险阻开博客&quot;&gt;&lt;/a&gt;最终无险阻开博客&lt;/h1&gt;&lt;p&gt;如题，完全是我自己动不起来才没开起来这个博客，现在弄出来了。&lt;br&gt;有时间回在这上面写点东西</summary>
+      
+    
+    
+    
+    
+    <category term="博客" scheme="https://lipiston.eu.org/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
