@@ -1,7 +1,3 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/LIPiston/LIPiston/refs/heads/main/lipiston.github.io/themes/archer/source/avatar/avatar.jpg" align="center" height="200" width="200" />
-</div>  
-  
 
 ### <div align="center">I'm LIPiston</div>  
   
