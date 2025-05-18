@@ -7,7 +7,7 @@
 
 - English zh-cn zh-tw  
   
-- my-blog: https://lipiston.eu.org/
+- my-blog: https://www.lipiston.eu.org/
 
 <br/>  
 
