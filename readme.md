@@ -13,5 +13,5 @@
 
 ## Github Stats  
 
-<img src="https://github-contribution-stats.vercel.app/api/?username=LIPiston" />
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=LIPiston)](https://github.com/LordDashMe/github-contribution-stats/)
 
