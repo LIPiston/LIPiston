@@ -10,8 +10,3 @@
 - my-blog: https://www.lipiston.eu.org/
 
 <br/>  
-
-## Github Stats  
-
-[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=LIPiston)](https://github.com/LordDashMe/github-contribution-stats/)
-
