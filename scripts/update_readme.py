@@ -67,7 +67,11 @@ def parse_feed(feed_bytes: bytes) -> list[FeedEntry]:
         if not title or not link or not pub_date:
             raise RssUpdateError(f"RSS item {position} has an empty title, link, or pubDate")
         parsed_link = urlsplit(link)
-        if parsed_link.scheme != "https" or not parsed_link.netloc:
+        if (
+            parsed_link.scheme != "https"
+            or not parsed_link.netloc
+            or any(character.isspace() or character in "()[]<>\\" for character in link)
+        ):
             raise RssUpdateError(f"RSS item {position} has a non-HTTPS link")
         try:
             parsed_date = parsedate_to_datetime(pub_date)
@@ -82,8 +86,21 @@ def parse_feed(feed_bytes: bytes) -> list[FeedEntry]:
 def render_markdown(entries: list[FeedEntry]) -> str:
     """Render validated feed entries as the required Markdown list."""
     return "\n".join(
-        f"- [{entry.title.replace(chr(92), chr(92) * 2).replace('[', chr(92) + '[').replace(']', chr(92) + ']').replace(chr(10), ' ').replace(chr(13), ' ')}]({entry.link}) - {entry.date}"
+        f"- [{escape_markdown_title(entry.title)}]({entry.link}) - {entry.date}"
         for entry in entries
+    )
+
+
+def escape_markdown_title(title: str) -> str:
+    """Make an RSS title a single escaped Markdown link-label line."""
+    return (
+        title.replace("\\", "\\\\")
+        .replace("\r", " ")
+        .replace("\n", " ")
+        .replace("[", "\\[")
+        .replace("]", "\\]")
+        .replace("<", "\\<")
+        .replace(">", "\\>")
     )
 
 

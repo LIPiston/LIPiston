@@ -87,6 +87,32 @@ class UpdateReadmeTests(unittest.TestCase):
                 with self.assertRaises(update_readme.RssUpdateError):
                     update_readme.parse_feed(feed)
 
+    def test_parse_feed_rejects_https_links_with_markdown_delimiters(self) -> None:
+        link = "https://example.com/a) [injected](https://evil.example"
+        feed = rss_feed(*(rss_item(link=link) if index == 0 else rss_item() for index in range(5)))
+
+        with self.assertRaises(update_readme.RssUpdateError):
+            update_readme.parse_feed(feed)
+
+    def test_parse_feed_accepts_standard_https_link(self) -> None:
+        feed = rss_feed(*(rss_item(link="https://example.com/articles/1") if index == 0 else rss_item() for index in range(5)))
+
+        entries = update_readme.parse_feed(feed)
+
+        self.assertEqual(entries[0].link, "https://example.com/articles/1")
+
+    def test_escape_markdown_title_flattens_and_escapes_control_characters(self) -> None:
+        title = r"bad ](https://evil.example)\n- injected <tag> [label] \path"
+
+        escaped = update_readme.escape_markdown_title(title)
+
+        self.assertEqual(escaped, r"bad \](https://evil.example)\\n- injected \<tag\> \[label\] \\path")
+
+    def test_escape_markdown_title_replaces_actual_line_breaks(self) -> None:
+        escaped = update_readme.escape_markdown_title("first\r\nsecond")
+
+        self.assertEqual(escaped, "first  second")
+
     def test_render_markdown_keeps_control_character_title_in_one_safe_line(self) -> None:
         title = "bad ](https://evil.example)\n- injected"
         feed = rss_feed(*(rss_item(title=title) if index == 0 else rss_item() for index in range(5)))
