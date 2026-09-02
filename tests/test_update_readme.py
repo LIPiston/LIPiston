@@ -2,6 +2,8 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from urllib.error import URLError
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).parents[1]))
 
@@ -85,6 +87,43 @@ class UpdateReadmeTests(unittest.TestCase):
     def test_update_text_rejects_reversed_markers(self) -> None:
         with self.assertRaises(update_readme.RssUpdateError):
             update_readme.update_text(f"{END}\n{START}", "content")
+
+    def test_update_text_rejects_duplicate_start_marker(self) -> None:
+        with self.assertRaises(update_readme.RssUpdateError):
+            update_readme.update_text(f"{START}\n{START}\n{END}", "content")
+
+    def test_update_text_rejects_duplicate_end_marker(self) -> None:
+        with self.assertRaises(update_readme.RssUpdateError):
+            update_readme.update_text(f"{START}\n{END}\n{END}", "content")
+
+    def test_fetch_feed_wraps_url_error(self) -> None:
+        with patch("scripts.update_readme.urlopen", side_effect=URLError("offline")):
+            with self.assertRaises(update_readme.RssUpdateError):
+                update_readme.fetch_feed()
+
+    def test_update_file_replaces_atomically_after_writing_temp_file(self) -> None:
+        original = f"before\n{START}\nold\n{END}\nafter"
+        markdown = "new content"
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "readme.md"
+            path.write_text(original, encoding="utf-8")
+            with patch("scripts.update_readme.NamedTemporaryFile", wraps=update_readme.NamedTemporaryFile) as temporary_file:
+                changed = update_readme.update_file(path, markdown)
+
+            self.assertTrue(changed)
+            self.assertEqual(path.read_text(encoding="utf-8"), f"before\n{START}\n{markdown}\n{END}\nafter")
+            temporary_file.assert_called_once()
+
+    def test_update_file_preserves_original_when_replacement_fails(self) -> None:
+        original = f"before\n{START}\nold\n{END}\nafter"
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "readme.md"
+            path.write_text(original, encoding="utf-8")
+            with patch.object(Path, "replace", side_effect=OSError("replacement failed")):
+                with self.assertRaises(update_readme.RssUpdateError):
+                    update_readme.update_file(path, "new content")
+
+            self.assertEqual(path.read_text(encoding="utf-8"), original)
 
     def test_update_file_does_not_write_when_text_is_identical(self) -> None:
         original = f"{START}\ncontent\n{END}"

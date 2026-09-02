@@ -6,6 +6,7 @@ from datetime import timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 import sys
+from tempfile import NamedTemporaryFile
 from typing import Final
 from urllib.error import URLError
 from urllib.request import Request, urlopen
@@ -81,6 +82,8 @@ def render_markdown(entries: list[FeedEntry]) -> str:
 
 def update_text(readme_text: str, markdown: str) -> str:
     """Replace only the content between the README markers."""
+    if readme_text.count(START_MARKER) != 1 or readme_text.count(END_MARKER) != 1:
+        raise RssUpdateError("README must contain exactly one RSS start and end marker")
     start = readme_text.find(START_MARKER)
     end = readme_text.find(END_MARKER)
     if start < 0 or end < 0:
@@ -97,7 +100,26 @@ def update_file(readme_path: Path, markdown: str) -> bool:
     updated = update_text(original, markdown)
     if updated == original:
         return False
-    readme_path.write_text(updated, encoding="utf-8")
+    temporary_path: Path | None = None
+    try:
+        with NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=readme_path.parent,
+            prefix=f".{readme_path.name}.",
+            delete=False,
+        ) as temporary_file:
+            temporary_file.write(updated)
+            temporary_path = Path(temporary_file.name)
+        temporary_path.replace(readme_path)
+    except OSError as error:
+        raise RssUpdateError(f"Unable to replace README atomically: {error}") from error
+    finally:
+        if temporary_path is not None:
+            try:
+                temporary_path.unlink(missing_ok=True)
+            except OSError:
+                pass
     return True
 
 
