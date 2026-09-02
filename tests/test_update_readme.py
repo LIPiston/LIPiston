@@ -80,6 +80,22 @@ class UpdateReadmeTests(unittest.TestCase):
         with self.assertRaises(update_readme.RssUpdateError):
             update_readme.parse_feed(feed)
 
+    def test_parse_feed_rejects_non_https_links(self) -> None:
+        for link in ("javascript:alert(1)", "http://example.com"):
+            with self.subTest(link=link):
+                feed = rss_feed(*(rss_item(link=link) if index == 0 else rss_item() for index in range(5)))
+                with self.assertRaises(update_readme.RssUpdateError):
+                    update_readme.parse_feed(feed)
+
+    def test_render_markdown_keeps_control_character_title_in_one_safe_line(self) -> None:
+        title = "bad ](https://evil.example)\n- injected"
+        feed = rss_feed(*(rss_item(title=title) if index == 0 else rss_item() for index in range(5)))
+
+        markdown = update_readme.render_markdown(update_readme.parse_feed(feed))
+
+        self.assertEqual(markdown.splitlines()[0], r"- [bad \](https://evil.example) - injected](https://example.com) - 2026-09-02")
+        self.assertEqual(len(markdown.splitlines()), 5)
+
     def test_update_text_rejects_missing_markers(self) -> None:
         with self.assertRaises(update_readme.RssUpdateError):
             update_readme.update_text("no markers", "content")
