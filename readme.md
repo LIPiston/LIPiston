@@ -9,11 +9,11 @@
 
 ## 最新动态
 <!-- BLOG-POST-LIST:START -->
+- [GitHub Gitee 的 issue 同步方案](https://lipiston.top/posts/default/GitHub-Gitee-issue-sync) - 2026-09-18
+- [记录 2026 年第 259 天](https://lipiston.top/notes/2) - 2026-09-16
+- [用OCSJS 和 AI 题库 搭建学习辅助系统](https://lipiston.top/posts/default/ocsjs) - 2026-09-16
 - [obsidian + sync-engine全平台笔记同步实现](https://lipiston.top/posts/default/obsidian-sync-engine) - 2026-09-14
 - [Yohaku 签名动画制作教程](https://lipiston.top/posts/default/yohaku-signature) - 2026-07-14
-- [记录 2026 年第 194 天](https://lipiston.top/notes/1) - 2026-07-11
-- [hello Yohaku | Yohaku + mixspace 的部署记录](https://lipiston.top/posts/default/hello-yohaku-postscript) - 2026-07-11
-- [Minecraft官方服务端启动脚本详解](https://lipiston.top/posts/default/Minecraft) - 2025-09-07
 <!-- BLOG-POST-LIST:END -->
 
 <br/>  
