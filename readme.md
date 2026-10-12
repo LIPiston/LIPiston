@@ -7,6 +7,10 @@
   
 - my-blog: https://lipiston.top/
 
+## GitHub 统计
+
+[![LIPiston's GitHub stats](https://github-readme-stats.vercel.app/api?username=LIPiston)](https://github.com/LIPiston)
+
 ## 最新动态
 <!-- BLOG-POST-LIST:START -->
 - [记录 2026 年第 272 天](https://lipiston.top/notes/3) - 2026-09-29
