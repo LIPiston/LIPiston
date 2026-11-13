@@ -13,11 +13,11 @@
 
 ## 最新动态
 <!-- BLOG-POST-LIST:START -->
+- [我的harness挑选经历](https://lipiston.top/posts/default/my-harness-choice) - 2026-11-13
 - [记录 2026 年第 284 天](https://lipiston.top/notes/4) - 2026-10-10
 - [记录 2026 年第 272 天](https://lipiston.top/notes/3) - 2026-09-29
 - [博客优化记录：使用 Cloudflare访问规则 加速博客访问](https://lipiston.top/posts/default/blog-optimization-cloudflare-access-rules-accelerate) - 2026-09-25
 - [修复webview2的路径错误导致的并行配置问题](https://lipiston.top/posts/default/fix-webview2-path-error-parallel-configuration) - 2026-09-25
-- [听《花骨朵》有感：对应自己的一些事情](https://lipiston.top/posts/read-listen-watch/blossom-bud) - 2026-09-21
 <!-- BLOG-POST-LIST:END -->
 
 <br/>  
